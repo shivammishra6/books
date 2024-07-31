@@ -1,0 +1,5 @@
+D:\programs\asp.net problemsheet 2\Books\Books\bin\Books.dll
+D:\programs\asp.net problemsheet 2\Books\Books\bin\Books.pdb
+D:\programs\asp.net problemsheet 2\Books\Books\obj\Debug\Books.dll
+D:\programs\asp.net problemsheet 2\Books\Books\obj\Debug\Books.pdb
+D:\programs\asp.net problemsheet 2\Books\Books\obj\Debug\Books.csprojResolveAssemblyReference.cache

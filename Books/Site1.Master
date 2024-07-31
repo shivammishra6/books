@@ -1,0 +1,78 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Books.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 80%;
+        }
+        .style2
+        {
+            width: 100%;
+        }
+        .style3
+        {
+            width: 238px;
+        }
+        .style4
+        {
+            width: 895px;
+        }
+        .style5
+        {
+            height: 26px;
+        }
+        .style6
+        {
+            width: 30%;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table align="center" class="style1">
+            <tr>
+                <td>
+                    <table bgcolor="#FFFFCC" class="style2" dir="ltr">
+                        <tr>
+                            <td class="style3">
+                                <asp:Image ID="Image1" runat="server" Height="131px" ImageUrl="~/books.jpg" 
+                                    Width="188px" />
+                            </td>
+                            <td class="style4" style="margin-left: 80px">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <asp:Label ID="Label1" runat="server" Font-Size="40pt" 
+                                    Text="University Library"></asp:Label>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td class="style5">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="#FFFFCC" height="50">
+                    <table align="center" class="style6">
+                        <tr>
+                            <td>
+                                @Copyright University Library - 2024</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>
